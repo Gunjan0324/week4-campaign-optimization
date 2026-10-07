@@ -1,0 +1,11 @@
+test,comparison,statistic,p_value,effect_or_note,mean_difference,ci95_lo,ci95_hi,cohens_dz,holm_adjusted_p,significant_0_05_after_holm
+One-way ANOVA (ROAS),All scenarios,2580.7659753282537,0.0,"Tests equality of scenario mean ROAS; simulation distributions are independent across scenarios only conceptually, so this is descriptive.",,,,,,
+"Friedman test (ROAS, paired)",All scenarios,37148.094719999994,0.0,Non-parametric global check that paired scenario ROAS distributions differ.,,,,,,
+Paired t-test (net profit),S1 Budget +25%,-346.5747647641476,0.0,,-8966.696510435793,-9017.406276256204,-8915.986744615382,-4.901307327057226,0.0,True
+Paired t-test (net profit),S2 Budget -25%,279.2110830075224,0.0,,7754.399944667147,7699.96577347367,7808.834115860624,3.9486410035411814,0.0,True
+Paired t-test (net profit),S3 Performance-heavy mix,61.592179101538626,0.0,,3075.129463686063,2977.2720110557807,3172.9869163163453,0.8710449502150864,0.0,True
+Paired t-test (net profit),S4 Awareness-heavy mix,-70.01852913840364,0.0,,-2883.926956838254,-2964.655542613454,-2803.1983710630534,-0.9902115352494617,0.0,True
+Paired t-test (net profit),S5 Channel-optimised,100.65308378244163,0.0,,4934.4403422467785,4838.352843410595,5030.527841082962,1.4234495617980438,0.0,True
+Paired t-test (net profit),S6 Segment-targeted,593.4038922845263,0.0,,5675.147428808872,5656.402541717481,5693.892315900263,8.391998324337601,0.0,True
+Paired t-test (net profit),S7 Jointly optimised,215.0613361980439,0.0,,12814.953180108443,12698.16180943695,12931.744550779937,3.0414265839335344,0.0,True
+Paired t-test (net profit),S8 Joint + CRO,320.5332082504394,0.0,,22739.21836812417,22600.17234464101,22878.26439160733,4.5330241029873095,0.0,True

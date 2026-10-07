@@ -1,0 +1,73 @@
+                 scenario  total_cost  revenue_mean  net_profit_mean  roas_mean  cpa_mean  conversions_mean  d_profit_vs_base  prob_beats_base  prob_loss  incremental_roas_vs_base
+S0 Baseline (equal split)    100000.0     180048.28          -973.45       1.80     75.52           1341.62              0.00             0.00       0.55                       NaN
+           S1 Budget +25%    125000.0     209199.74         -9940.14       1.67     81.18           1559.82          -8966.70             0.00       0.78                      1.17
+           S2 Budget -25%     75000.0     148692.64          6780.95       1.98     68.65           1107.07           7754.40             1.00       0.24                      1.25
+ S3 Performance-heavy mix    100000.0     185639.42          2101.68       1.86     73.31           1384.79           3075.13             0.81       0.46                       NaN
+   S4 Awareness-heavy mix    100000.0     174804.77         -3857.37       1.75     77.34           1309.74          -2883.93             0.15       0.65                       NaN
+     S5 Channel-optimised    100000.0     189019.99          3960.99       1.89     71.95           1410.55           4934.44             0.93       0.40                       NaN
+      S6 Segment-targeted    100000.0     190366.73          4701.70       1.90     74.96           1351.70           5675.15             1.00       0.36                       NaN
+     S7 Jointly optimised    100000.0     203348.19         11841.50       2.03     70.16           1446.83          12814.95             1.00       0.20                       NaN
+           S8 Joint + CRO    100000.0     221392.31         21765.77       2.21     64.44           1575.02          22739.22             1.00       0.06                       NaN
+                 scenario  Search_%  Social_%  Email_%  Display_%  Video_%  18-24_%  25-34_%  35-49_%  50+_%
+S0 Baseline (equal split)      20.0      20.0     20.0       20.0     20.0     25.0     25.0     25.0   25.0
+           S1 Budget +25%      20.0      20.0     20.0       20.0     20.0     25.0     25.0     25.0   25.0
+           S2 Budget -25%      20.0      20.0     20.0       20.0     20.0     25.0     25.0     25.0   25.0
+ S3 Performance-heavy mix      35.0      30.0     10.0       10.0     15.0     25.0     25.0     25.0   25.0
+   S4 Awareness-heavy mix      15.0      25.0      5.0       25.0     30.0     25.0     25.0     25.0   25.0
+     S5 Channel-optimised      27.7      32.7      9.6       24.4      5.6     25.0     25.0     25.0   25.0
+      S6 Segment-targeted      20.0      20.0     20.0       20.0     20.0     10.0     20.0     45.0   25.0
+     S7 Jointly optimised      27.8      33.0      9.2       24.9      5.1     10.0     20.8     45.0   24.2
+           S8 Joint + CRO      28.0      32.6      9.4       24.8      5.2     10.0     20.8     45.0   24.2
+                           parameter  profit_change_at_-20%  profit_change_at_+20%   swing
+                  CPM (all channels)                27755.0               -18504.0 46259.0
+                  CVR (all channels)               -22204.0                22204.0 44409.0
+                        Gross margin               -22204.0                22204.0 44409.0
+                  CTR (all channels)               -22204.0                22204.0 44409.0
+                 Average order value               -22204.0                22204.0 44409.0
+Diminishing-returns exponent (alpha)                -5732.0                 7131.0 12863.0
+                 Brand-halo strength                -1164.0                 1164.0  2328.0
+                      stress_case  baseline_profit  optimised_profit   uplift  prob_optimised_wins
+            No stress (reference)          -973.45          11841.50 12814.95                  1.0
+       CTR 20% lower than assumed        -20778.76         -10526.80 10251.96                  1.0
+       CVR 20% lower than assumed        -20778.76         -10526.80 10251.96                  1.0
+      CPM 20% higher than assumed        -17477.87          -6798.75 10679.13                  1.0
+Harsher saturation (alpha - 0.15)          -973.45           6956.07  7929.52                  1.0
+                    No brand halo         -5309.48           5992.08 11301.56                  1.0
+        Search & Email 30% weaker        -16133.23          -4348.78 11784.45                  1.0
+ budget      strategy   revenue  net_profit  roas  marginal_roas
+  30000   Equal split  82196.93    15208.31  2.74            NaN
+  30000 Optimised mix  91337.43    20235.59  3.04            NaN
+  40000   Equal split  98733.14    14303.23  2.47           1.65
+  40000 Optimised mix 109834.29    20408.86  2.75           1.85
+  50000   Equal split 114021.38    12711.76  2.28           1.53
+  50000 Optimised mix 127110.72    19910.90  2.54           1.73
+  60000   Equal split 128400.30    10620.17  2.14           1.44
+  60000 Optimised mix 143500.92    18925.51  2.39           1.64
+  70000   Equal split 142075.06     8141.28  2.03           1.37
+  70000 Optimised mix 159205.64    17563.10  2.27           1.57
+  80000   Equal split 155181.59     5349.87  1.94           1.31
+  80000 Optimised mix 174357.19    15896.46  2.18           1.52
+  90000   Equal split 167815.74     2298.66  1.86           1.26
+  90000 Optimised mix 189048.56    13976.71  2.10           1.47
+ 100000   Equal split 180048.28     -973.45  1.80           1.22
+ 100000 Optimised mix 203348.19    11841.50  2.03           1.43
+ 110000   Equal split 191933.27    -4436.70  1.74           1.19
+ 110000 Optimised mix 217308.35     9519.59  1.98           1.40
+ 120000   Equal split 203513.22    -8067.73  1.70           1.16
+ 120000 Optimised mix 230969.48     7033.21  1.92           1.37
+ 130000   Equal split 214822.29   -11847.74  1.65           1.13
+ 130000 Optimised mix 244364.34     4400.39  1.88           1.34
+ 140000   Equal split 225888.45   -15761.35  1.61           1.11
+ 140000 Optimised mix 257519.99     1636.00  1.84           1.32
+ 150000   Equal split 236734.99   -19795.76  1.58           1.08
+ 150000 Optimised mix 270458.93    -1247.59  1.80           1.29
+ 160000   Equal split 247381.52   -23940.16  1.55           1.06
+ 160000 Optimised mix 283200.13    -4239.93  1.77           1.27
+ 170000   Equal split 257844.79   -28185.36  1.52           1.05
+ 170000 Optimised mix 295759.81    -7332.11  1.74           1.26
+ 180000   Equal split 268139.23   -32523.42  1.49           1.03
+ 180000 Optimised mix 308151.93   -10516.44  1.71           1.24
+ 190000   Equal split 278277.37   -36947.44  1.46           1.01
+ 190000 Optimised mix 320388.65   -13786.25  1.69           1.22
+ 200000   Equal split 288270.22   -41451.38  1.44           1.00
+ 200000 Optimised mix 332473.67   -17139.48  1.66           1.21

@@ -1,0 +1,5 @@
+segment,cpm_mult,cvr_mult,aov_mult,note
+18-24,0.90,0.70,0.75,"Cheaper to reach, lower purchase intent and basket size"
+25-34,1.15,1.10,1.00,"Highly contested audience, strong intent"
+35-49,1.10,1.25,1.20,"High intent and highest basket size"
+50+,0.85,1.00,1.10,"Cheaper to reach, steady intent, lower engagement with social/video"
